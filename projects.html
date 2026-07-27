@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Projects — Sara Malik</title>
+<meta name="description" content="Web and mobile projects built by Sara Malik." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+<div id="site-header"></div>
+
+<main>
+  <section class="section" style="padding-top:56px;">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">projects</span>
+        <h2>Things I've built</h2>
+        <p>Every card below is rendered from a single JavaScript data file — filter by category to narrow things down.</p>
+      </div>
+
+      <div class="filter-bar" role="group" aria-label="Filter projects by category">
+        <button class="filter-btn" data-filter="all" aria-pressed="true">all</button>
+        <button class="filter-btn" data-filter="web" aria-pressed="false">web</button>
+        <button class="filter-btn" data-filter="mobile" aria-pressed="false">mobile</button>
+        <button class="filter-btn" data-filter="tools" aria-pressed="false">tools</button>
+      </div>
+
+      <div class="projects-grid" id="projectsGrid"></div>
+    </div>
+  </section>
+</main>
+
+<div id="site-footer"></div>
+
+<script src="assets/js/data.js"></script>
+<script src="assets/js/projects.js"></script>
+<script src="assets/js/nav.js"></script>
+</body>
+</html>

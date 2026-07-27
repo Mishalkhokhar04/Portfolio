@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Sara Malik — Full-Stack Developer</title>
+<meta name="description" content="Portfolio of Sara Malik, a full-stack developer building web and mobile products." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+<div id="site-header"></div>
+
+<main>
+  <section class="hero">
+    <div class="container hero-grid">
+      <div>
+        <span class="eyebrow">full-stack developer, Punjab, Pakistan</span>
+        <h1>I build products that feel obvious to use — even when the problem underneath isn't.</h1>
+        <p class="lede">I'm Sara, a full-stack developer focused on clean data models and interfaces that don't make people think. Currently open to freelance and full-time roles.</p>
+        <div class="hero-actions">
+          <a href="projects.html" class="btn btn-primary">view projects</a>
+          <a href="contact.html" class="btn btn-ghost">get in touch</a>
+        </div>
+      </div>
+      <div class="terminal-card" aria-hidden="true">
+        <div class="tc-head"><span></span><span></span><span></span></div>
+        <div class="line"><span class="prompt">$</span> whoami</div>
+        <div class="line out">sara-malik / full-stack developer</div>
+        <div class="line"><span class="prompt">$</span> cat stack.txt</div>
+        <div class="line out">react · node.js · postgres · aws</div>
+        <div class="line"><span class="prompt">$</span> status --current</div>
+        <div class="line out">available for new projects<span class="cursor"></span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="stack-strip">
+    <div class="container">
+      <ul class="stack-list">
+        <li>JavaScript / TypeScript</li>
+        <li>React &amp; Next.js</li>
+        <li>Node.js &amp; Express</li>
+        <li>PostgreSQL</li>
+        <li>REST &amp; GraphQL APIs</li>
+        <li>Docker</li>
+        <li>AWS</li>
+        <li>Accessibility (WCAG)</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">selected work</span>
+        <h2>A few things I've shipped recently</h2>
+        <p>Each project below is pulled from the same data source that powers the full projects page — nothing here is a one-off snippet.</p>
+      </div>
+      <div class="grid-3" id="featuredGrid"></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="cta-band">
+        <h2>Have a project in mind?</h2>
+        <p>I'm currently taking on a small number of freelance engagements and full-time conversations.</p>
+        <a href="contact.html" class="btn btn-primary">start a conversation</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<div id="site-footer"></div>
+
+<script src="assets/js/data.js"></script>
+<script src="assets/js/projects.js"></script>
+<script src="assets/js/nav.js"></script>
+</body>
+</html>
